@@ -43,7 +43,20 @@
             font-size: 1.2em;
             margin-top: 20px;
             cursor: pointer;
-        }        
+        }  
+
+        ul.submenu {
+  overflow: hidden;
+  transition: all .3s ease;
+  max-height: 0;
+}
+
+.top-level-item:hover {
+  .submenu {
+    max-height: 100%;
+  }
+}
+        
     </style>
 
     
@@ -58,6 +71,19 @@
         <br>
         <br>
         <a href="https://t.me/m3ntoz" class="button">Приобрести | 179 rub | Навсегда</a>
+       
+        <div class="menu">Menu Item
+    <ul>
+        <li>Dropdown 1</li>
+        <li>Dropdown 2</li>
+        <li>Dropdown 3</li>
+        <li>Dropdown 4</li>
+        <li>Dropdown 5</li>
+    </ul>
+        </div>
+        
+        
+        
         <br>
         <br>
         <br>
