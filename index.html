@@ -54,7 +54,12 @@
             font-weight: 700; 
         } 
         
-
+.gradient {
+	color: transparent;    
+	-webkit-background-clip: text;
+	background-clip: text;
+	background-image: linear-gradient(to bottom, red, fuchsia);
+}
 
         
 
@@ -67,7 +72,7 @@
 </head>
 <body>
     <div>
-        <h1>Elysium Sense</h1>
+        <h1><span class="gradient">Elysium Sense</h1>
         <p>Уникальное ПО с огромным функционалом и отзывчивой командой техподдержки.</p>
         <a href="https://t.me/elysiumssb" class="button">Официальный Телеграм-Канал</a>
         <br>
